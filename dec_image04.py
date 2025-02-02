@@ -2,7 +2,7 @@ from pyzbar.pyzbar import decode
 import cv2
 import numpy as np
 
-# Read the image
+# Read the image from memory
 image = cv2.imread("img4.png")
 
 # Decode the barcode
